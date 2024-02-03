@@ -9,12 +9,13 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 build-mode = "both"
 excluded-patches = ""
 included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+version = "latest"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
 build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+version = "latest"
 arch = "both"
 
 [Twitter]
