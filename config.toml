@@ -49,7 +49,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
