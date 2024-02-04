@@ -9,7 +9,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Enable slide to seek' 'Custom branding'
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
@@ -56,15 +56,17 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "VancedE"
 build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 
 [YouTube-Extended]
 enabled = true
 app-name = "YouTube"
+included-patches = "Custom branding"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "VancedE"
 build-mode = "both"
+version = "19.03.35"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
