@@ -9,7 +9,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = "'Enable slide to seek' 'Custom branding'"
+included-patches = ""
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
@@ -69,3 +69,4 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "VancedE"
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+version = "19.3.35"
