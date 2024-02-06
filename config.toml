@@ -9,7 +9,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Custom branding'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
@@ -49,7 +49,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -62,7 +62,6 @@ arch = "both"
 [YouTube-Extended]
 enabled = true
 app-name = "YouTube"
-included-patches = "'Custom branding'"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
