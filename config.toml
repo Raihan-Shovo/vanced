@@ -9,7 +9,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 enabled = true
 build-mode = "both"
 excluded-patches = ""
-included-patches = "'Custom branding'"
+included-patches = ""
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
