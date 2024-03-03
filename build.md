@@ -1,8 +1,10 @@
 YouTube: 19.04.37  
-Music (arm-v7a): 6.41.58  
 Reddit: 2024.08.0  
 Music (arm64-v8a): 6.41.58  
+Music (arm-v7a): 6.41.58  
 Spotify: 8.9.18.512  
+Music-Extended (arm64-v8a): 6.33.52  
+YouTube-Extended: 19.02.39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
