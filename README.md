@@ -26,7 +26,7 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
  * Star the repo :eyes:
  * Use the repo as a template
  * Customize `config.toml`
- * Run the build [workflow](../../actions/workflows/build.yml)
+ * Run the build `workflow`
  * Grab your modules and APKs from `releases`
 
 also, see here [`CONFIG.md`](./CONFIG.md)
