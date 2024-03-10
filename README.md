@@ -1,4 +1,4 @@
-Get The Latest Builds Here [Latest Release]()
+Get The Latest Builds Here [Latest Release](https://github.com/Raihan-Shovo/vanced/releases/latest)
 
 <details><summary><big>Features</big></summary>
 <ul>
