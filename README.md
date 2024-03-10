@@ -1,4 +1,9 @@
-Get The Latest Builds Here [Latest Release](https://github.com/Raihan-Shovo/vanced/releases/latest)
+## ⭐ Overview
+Here you can download and use applications selected for this repository, which are modified and extended with many functionalities that will certainly be useful to you.
+
+> **Note**: Keep in mind that some builds may not work as expected due to changes in the app/patch code. In this case, there is nothing I can do, I just provide the ready-made APK files.
+
+## Get The Latest Builds Here [Latest Release](https://github.com/Raihan-Shovo/vanced/releases/latest)
 
 <details><summary><big>Features</big></summary>
 <ul>
