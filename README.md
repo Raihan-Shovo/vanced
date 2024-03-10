@@ -1,6 +1,4 @@
-Extensive ReVanced builder  
-
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
+<big>Extensive ReVanced builder</big> 
 
 <details><summary><big>Features</big></summary>
 <ul>
@@ -17,13 +15,13 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube
      <li> support Magisk and KernelSU</li>
     </ul>
 </ul>
-Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
+Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs every day using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
 </details>
 
  * Star the repo :eyes:
  * Use the repo as a template
- * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
+ * Customize [`config.toml`]
  * Run the build [workflow](../../actions/workflows/build.yml)
- * Grab your modules and APKs from [releases](../../releases)
+ * Grab your modules and APKs from [releases]
 
-also see here [`CONFIG.md`](./CONFIG.md)
+also, see here [`CONFIG.md`](./CONFIG.md)
