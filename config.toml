@@ -51,21 +51,22 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-s
 [Music-Extended]
 enabled = false
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+patches-source = "rufusin/revanced-patches"
+integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "VancedE"
+rv-brand = "Vanced.E"
 build-mode = "both"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
 
 [YouTube-Extended]
 enabled = true
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "j-hc/revanced-cli"
-rv-brand = "Vanced"
-version = "19.02.39"
+patches-source = "rufusin/revanced-patches"
+integrations-source = "rufusin/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "Vanced.E"
+included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
+excluded-patches = "'Custom branding name YouTube'"
 build-mode = "both"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
