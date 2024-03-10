@@ -49,7 +49,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "Music"
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
@@ -69,4 +69,5 @@ rv-brand = "Vanced.E"
 included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
 excluded-patches = "'Custom branding name YouTube'"
 build-mode = "both"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
