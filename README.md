@@ -1,4 +1,4 @@
-<big>Extensive ReVanced builder</big> 
+Get The Latest Builds Here [Latest Release]()
 
 <details><summary><big>Features</big></summary>
 <ul>
@@ -20,8 +20,8 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 
  * Star the repo :eyes:
  * Use the repo as a template
- * Customize [`config.toml`]
+ * Customize `config.toml`
  * Run the build [workflow](../../actions/workflows/build.yml)
- * Grab your modules and APKs from [releases]
+ * Grab your modules and APKs from `releases`
 
 also, see here [`CONFIG.md`](./CONFIG.md)
