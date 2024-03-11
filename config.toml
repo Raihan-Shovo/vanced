@@ -1,4 +1,4 @@
-enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
+  enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -9,7 +9,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 enabled = true
 build-mode = "both"
 included-patches = "'Enable slide to seek'"
-excluded-patches = "'Announcements' 'Hide Shorts components' 'Disable rolling number animations'"
+excluded-patches = "'Announcements' 'Hide Shorts components'"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music]
@@ -66,8 +66,8 @@ patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Vanced.E"
-included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide double tap to like animations' 'Hide player button background' 'Hide voice search button' 'MaterialYou' 'Shorts outline button'"
-excluded-patches = "'Custom branding name YouTube'"
-build-mode = "both"
+included-patches = "'Add splash animation' 'Disable landscape mode' 'Enable debug logging' 'Hide animated button background' 'Hide double tap overlay filter' 'Hide player button background' 'MaterialYou' 'Custom branding name YouTube'"
+excluded-patches = "'Shorts outline button' 'Hide double tap to like animations' 'Hide voice search button'"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
