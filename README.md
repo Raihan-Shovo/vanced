@@ -3,8 +3,7 @@ Here you can download and use applications selected for this repository, which a
 
 > **Note**: Keep in mind that some builds may not work as expected due to changes in the app/patch code. In this case, there is nothing I can do, I just provide the ready-made APK files.
 
-## Get The Latest Builds Here [Latest Release](https://github.com/Raihan-Shovo/vanced/releases/latest)
-[![Release](https://img.shields.io/github/v/release/Raihan-Shovo/Vanced?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/Raihan-Shovo/Vanced/releases/latest) [![Downloads](https://img.shields.io/github/downloads/Raihan-Shovo/Vanced/total?style=for-the-badge&labelColor=21262d&color=238636)](https://github.com/Raihan-Shovo/Vanced/releases)
+## Get The Latest Builds Here [![Latest Release](https://img.shields.io/github/v/release/Raihan-Shovo/Vanced?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/Raihan-Shovo/Vanced/releases/latest)
 
 <details><summary><big>Features</big></summary>
 <ul>
