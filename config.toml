@@ -15,7 +15,8 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Music]
 enabled = true
 build-mode = "both"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 
 [Twitter]
@@ -33,7 +34,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.music
 
 [Reddit]
 enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+#apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
 enabled = false
