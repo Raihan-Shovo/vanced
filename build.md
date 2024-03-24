@@ -1,9 +1,10 @@
+Music (arm-v7a): 6.44.54  
+Reddit: 2024.12.0  
 Music (arm64-v8a): 6.44.54  
 YouTube: 19.04.37  
-Music (arm-v7a): 6.44.54  
 Spotify: 8.9.24.633  
-Music-Extended (arm-v7a): 6.44.54  
 Music-Extended (arm64-v8a): 6.44.54  
+Music-Extended (arm-v7a): 6.44.54  
 YouTube-Extended: 19.11.38  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
