@@ -1,4 +1,4 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+  enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -6,57 +6,36 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = true
 build-mode = "both"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
+included-patches = "'Enable slide to seek'"
+excluded-patches = "'Announcements' 'Hide Shorts components'"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music]
+enabled = true
 build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
-
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Twitter]
+enabled = false
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Twitch]
+enabled = false
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [TikTok]
+enabled = false
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-included-patches = "'SIM spoof'"
 
-[Reddit-Extended]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+[Reddit]
+enabled = true
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+#apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
 enabled = false
@@ -64,9 +43,37 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
 [Spotify]
-enabled = false
+enabled = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+
+[Music-Extended]
+enabled = true
+app-name = "Music"
+included-patches = "'Custom package name' 'Custom branding icon YouTube Music'"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "Vanced.E"
+build-mode = "both"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+arch = "both"
+
+[YouTube-Extended]
+enabled = true
+app-name = "YouTube"
+#patches-source = "rufusin/revanced-patches"
+#integrations-source = "rufusin/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "Vanced.E"
+included-patches = "'MaterialYou' 'Custom branding name YouTube' 'Custom package name' 'Custom branding icon YouTube'"
+excluded-patches = "'Hide animated button background' 'Hide double tap to like animations' 'Hide voice search button' 'Hide player button background' 'Spoof app version' 'Force hide player buttons background' 'Disable haptic feedback' 'Hide shorts dimming' 'Force hide player buttons background' 'Disable auto captions'"
+build-mode = "apk"
+#version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"

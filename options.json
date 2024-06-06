@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "raihan.youtube"
+      },
+      {
+        "key": "PackageNameYouTubeMusic",
+        "value": "raihan.youtube.music"
+      }
+    ]
+  },
+   {
+    "patchName": "Custom branding name YouTube",
+    "options": [
+      {
+        "key": "AppName",
+        "value": "YouTube Vanced"
+      }
+    ]
+  },
+    {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "res/Icon/YT"
+      }
+    ]
+  },
+   {
+    "patchName": "Custom branding name YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "YT Music"
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "YT Music"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "res/Icon/YTM"
+      }
+    ]
+  }
+]
